@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  background: #fafafa;
+  scroll-behavior: smooth;
+}
+.form-control {
+  width: 58%;
+  border-radius: 1.25rem;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.insert {
+  background-color: #4a4d58;
+  border: none;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  margin-left: 4rem;
+}
+.add_close {
+  background-color: #787d8e;
+}
+.main_title {
+  padding-left: 21%;
+}
+.header {
+  background-color: #e9e9e9;
+  display: flex;
+}
+.search {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 63%;
+}
+
+.card-img-top {
+  width: 50%;
+}
+.progress {
+  height: 10px;
+}
+.description {
+  overflow: hidden;
+  width: 224px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.sidebar {
+  width: 16%;
+  background: #e9e9e9;
+  margin-right: 10px;
+  padding: 25px;
+}
+.catagory_select {
+  position: relative;
+  font-family: Arial;
+  padding: 0px 20px;
+  background-color: #fafafa;
+}
+.name_catagory {
+  border-radius: 0;
+  width: 100%;
+}
+.single_item {
+  max-width: 100%;
+}
+.delete {
+  width: 10%;
+  justify-content: end;
+  display: flex;
+  position: absolute;
+  right: 27px;
+}
+
+@media (max-width: 600px) {
+  .sidebar {
+    display: none;
+  }
+  .header {
+    display: block;
+  }
+  .search {
+    width: 95%;
+  }
+}
+.sidebar_list_name {
+  text-decoration: underline;
+  color: #444343;
+}
