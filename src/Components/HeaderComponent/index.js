@@ -24,7 +24,7 @@ const HeaderComponent = () => {
     if (val) {
       let data = productAll?.map((item) => {
         const products = item?.products?.filter((v) => {
-          return v?.title?.toLowerCase()?.startsWith(val);
+          return (v?.title?.toLowerCase()?.startsWith(val)||v?.description?.toLowerCase()?.startsWith(val));
         });
 
         if (products?.length) {
